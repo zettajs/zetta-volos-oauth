@@ -4,7 +4,7 @@ An extension for Zetta to allow OAuth via [volos](https://github.com/apigee-127/
 
 ## Install
 
-`npm install zetta-oauth-extension`
+`npm install zetta-volos-oauth`
 
 ## Example
 
