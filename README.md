@@ -1,4 +1,4 @@
-# zetta-oauth-extension
+# zetta-volos-oauth
 
 An extension for Zetta to allow OAuth via [volos](https://github.com/apigee-127/volos).
 
@@ -10,7 +10,7 @@ An extension for Zetta to allow OAuth via [volos](https://github.com/apigee-127/
 
 ```js
 var zetta = require('zetta');
-var OAuthExtension = require('./oauth_extension');
+var OAuthExtension = require('zetta-volos-oauth');
 var config = require('./config');
 
 zetta()

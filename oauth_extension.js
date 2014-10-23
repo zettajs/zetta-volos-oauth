@@ -4,12 +4,12 @@ module.exports = function(config) {
 
     argo
       .use(config.oauth.argoMiddleware({
-        authorizeUri: '^/authorize.*',
-        accessTokenUri: '/accesstoken'
+        authorizeUri: config.authorizeUri || '^/authorize.*',
+        accessTokenUri: config.accessTokenUri || '/accesstoken'
       }))
       .use(function(handle) {
         handle('resource:request:before', function(env, next) {
-          env.oauth.authenticate(config.scopes, env, function(env) {
+          env.oauth.authenticate(config.scopes || [], env, function(env) {
             if (env.oauth.error) {
               env.resource._skip = true;
             }

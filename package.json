@@ -1,0 +1,24 @@
+{
+  "name": "zetta-volos-oauth",
+  "version": "0.1.0",
+  "description": "An extension for Zetta to allow OAuth authorization via volos.",
+  "main": "oauth_extension.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zettajs/zetta-volos-oauth.git"
+  },
+  "keywords": [
+    "zetta",
+    "volos",
+    "oauth"
+  ],
+  "author": "Kevin Swiber <kswiber@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevinswiber/zetta-oauth-extension/issues"
+  },
+  "homepage": "https://github.com/kevinswiber/zetta-oauth-extension"
+}
